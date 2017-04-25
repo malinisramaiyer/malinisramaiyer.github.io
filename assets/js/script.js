@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $('#name').fadeIn('fast');
-    $('#about').fadeIn('fast');
-    $('#header').fadeIn('fast');
+    $('#name').fadeIn('slow');
+    $('#about').fadeIn('slow');
+    $('#header').fadeIn('slow');
     $("#contact-text").hover(function() {
     	$('#contact-text').text("CLICK ME!");
     });
