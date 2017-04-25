@@ -98,12 +98,61 @@ body {
 	word-spacing: 5px;
 }
 
-a:link {
+#contact {
+	position: fixed;
+	top: 525px;
+	left: 735px;
+	font-family: PT Sans Narrow;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+}
+
+.bigger {
+	text-decoration: bold;
 	color: maroon;
+}
+
+
+#contact-text {
+	position: fixed;
+	top: 480px;
+	left: 735px;
+	height: 50px;
+	width: 340px;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+#contact-text:hover {
+	color: maroon;
+	background-color: white;
+	border-color: maroon;
+	border-style: solid;
+}
+
+#contact-item{
+	height: 50px;
+}
+
+#contact-item a:link {
+	color: maroon;
+	text-decoration: none;
 }
 
 a:visited {
 	color: maroon;
+	text-decoration: none;
+}
+
+a:link {
+	color: maroon;
+	text-decoration: none;
+}
+
+a:visited {
+	color: maroon;
+	text-decoration: none;
 }
 
 .first-picture {

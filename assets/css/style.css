@@ -49,6 +49,8 @@ body {
 	z-index: 2;
 }
 
+
+
 #logo {
 	font-size: 20px;
 	letter-spacing: 3px;
@@ -149,26 +151,28 @@ a:visited {
 	color: maroon;
 }
 
-#bio{
+
+#contact {
+	position: fixed;
+	top: 460px;
+	left: 770px;
+	height: 50px;
+	width: 300px;
 	font-family: PT Sans Narrow;
-	font-size: 30px;
-	position: absolute;
-	top: 530px;
-	left: 700px;
-	width: 400px;
-	line-height: 140%;
-	letter-spacing: 2px;
+	font-size: 15px;
+	letter-spacing: 1.5px;
+	color: white;
+	text-align: center;
+	background-color: black;
 }
 
-#connect {
-	font-family: PT Sans Narrow;
-	font-size: 25px;
-	position: absolute;
-	top: 675px;
-	left: 700px;
-	width: 400px;
-	letter-spacing: 2px;
-	font-color: maroon;
+#contact:hover {
+	color: maroon;
+	background-color: white;
+}
+
+#contact-item{
+	font-size: 10px;
 }
 
 #arrow {

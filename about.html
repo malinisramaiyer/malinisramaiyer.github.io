@@ -17,7 +17,8 @@
       src: url(assets/css/myThirdFont.ttf);
       }
   </style>
-  <script type="text/javascript" src="script.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+  <script src="assets/js/script.js"></script>
 </head>
 <body>
     <div class="top-nav-bar">
@@ -38,12 +39,27 @@
     </div>
     <div id="main">
       <div id="info-module">
-        <div id="about">
+        <div id="about" style="display: none">
           <img src=assets/img/About.png alt="logo" height="200">
         </div> 
         <div id="bio">
-          <p> I'm a freshman at UC Berkeley, with a passion for social justice, writing and design. Currently, I'm working as the Lead City Government Reporter at <a href="dailycal.org">The Daily Californian</a>. I like experiment with different forms of media, taking photos and redesigning my website. </p>
+          <p> I'm a freshman at UC Berkeley, with a passion for social justice, writing and design. Currently, I'm working as an Assistant News Reporter at <a href="dailycal.org">The Daily Californian</a>. I like experiment with different forms of media, taking photos and redesigning my website. </p>
         </div>
+        <div id ="contact">
+          <div id="contact-text"> 
+            <p> CONTACT </p> 
+          </div>
+          <div class="contact-item" style="display: none">
+            <div id="email"> <p> <a href="malinisramaiyer@gmail.com"> Email malinisramaiyer@gmail.com </a> </p> </div>
+          </div>
+          <div class="contact-item" style="display: none">
+            <div id="tweet"> <p> <a href="https://twitter.com/malinisramaiyer"> Tweet @malinisramaiyer </a> </p> </div>
+          </div>
+          <div class="contact-item" style="display: none">
+            <div id="follow"> <p> <a href="https://www.instagram.com/malinisramaiyer/"> Follow @malinisramaiyer </a> </p> </div>
+          </div>
+        </div>
+      </div>
       <div class="collage">
         <div class="first-picture">
           <img src=assets/img/profile.jpg alt="Smiley face" width="600">
@@ -58,5 +74,4 @@
           <img src=assets/img/kumar.jpg alt="Smiley face" width="340">
         </div>
       </div>
-    </div>
 </body>

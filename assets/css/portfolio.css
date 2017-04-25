@@ -1,3 +1,5 @@
+
+
 body {
 	position: relative;
 	margin: 0px;
@@ -116,7 +118,10 @@ body {
     top: 750px;
     left: calc(50% - 430px);
     display: inline-block;
+    height: 825px;
+    overflow: scroll;
 } 
+
 
 .work-item{
     width: 250px;
